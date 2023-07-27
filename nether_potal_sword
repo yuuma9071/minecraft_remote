@@ -1,2 +1,6 @@
+#making a nether_potal_sword
+
 from mcje.minecraft import Minecraft
 import param_MCJE as param
+
+mc
