@@ -25,21 +25,21 @@ y = param.Y_SEA + 1
 for _n in range(9):
     z = 9
     for _i in range(7):
-        mc.setBlock(x, y, z,  param.GOLD_BLOCK)
+        mc.setBlock(x, y, z,  param.QUARTZ_BLOCK)
         sleep(0.25)
         z += 1
     x += 1
 
 y = param.Y_SEA + 1
-mc.setBlocks(2, y, 8,  8, y, 8,  param.GOLD_BLOCK)
-mc.setBlocks(3, y, 7,  7, y, 7,  param.GOLD_BLOCK)
+mc.setBlocks(2, y, 8,  8, y, 8,  param.QUARTZ_BLOCK)
+mc.setBlocks(3, y, 7,  7, y, 7,  param.QUARTZ_BLOCK)
 y += 1
 
 sleep(0.25)
 
 y = param.Y_SEA + 1
-mc.setBlocks(2, y, 16,  8, y, 16,  param.GOLD_BLOCK)
-mc.setBlocks(3, y, 17,  7, y, 17,  param.GOLD_BLOCK)
+mc.setBlocks(2, y, 16,  8, y, 16,  param.QUARTZ_BLOCK)
+mc.setBlocks(3, y, 17,  7, y, 17,  param.QUARTZ_BLOCK)
 y += 1
 
 sleep(0.5)
@@ -49,7 +49,7 @@ y = param.Y_SEA + 2
 for _n in range(7):
     z = 8
     for _i in range(9):
-        mc.setBlock(x, y, z,  param.GOLD_BLOCK)
+        mc.setBlock(x, y, z,  param.QUARTZ_BLOCK)
         sleep(0.25)
         z += 1
     x += 1
