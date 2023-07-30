@@ -5,3 +5,4 @@ import param_MCJE as param
 
 mc = Minecraft.create(port=param.PORT_MC)
 mc.postToChat('I'll make a special nether_potal for you!')
+mc.setBlocks
